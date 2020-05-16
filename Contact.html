@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CodeReview 01 Rebecca Schedler</title>
+	<link rel='stylesheet' type='text/css' href='styles.css'>
+<!-- Tried the external stylesheet, but it didn't work -->
+	<style> 
+		.container {
+		width: 1000px;
+   		margin: 0px auto;
+   		}
+		#ContactText {
+		text-align: center;
+		font-size: 20px;
+		color: #404041;
+		position: absolute;
+		left: 400px;
+		top: 250px;
+		}
+		#Form {
+		position: absolute;
+		left: 400px;
+		top: 310px;
+		}
+		#Contact {
+		color: #404041
+		}
+		#disclaimer {
+		font-size: 10px;
+		}
+		footer {
+		text-align: center;
+		background-color: #C9BCB7;
+		position: absolute;
+		top: 750px;
+		width: 1000px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		}
+		#copy {
+		font-size: 14px;
+		color: #404041;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+	<header>
+		<div id="header">
+		<H1>Rebecca - (Future) Full-Stack Web Developer</H1>
+		<div id="logotop">
+			<img src="img/logo.png" alt="Logo CodeFactory Vienna" width="300px">		
+		</div>
+		</div>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a id="Contact" href="Contact.html"><b>Contact<b></a></li>
+			<li><a href="AboutMe.html">About me</a></li>
+			<li><a href="Blog.html">Blog</a></li>
+			<li><a href="index.html">Home</a></li>			
+		</ul>
+	</nav>
+	<main>
+		<div id="ContactText">
+			<p>Don't call me, I will call you*</p>
+		</div>
+
+		<form>
+		<div id="Form">
+			First name:<br>
+			<input type="text" name="firstname" placeholder="First name"><br>
+			Last name:<br>
+			<input type="text" name="lastname"  placeholder="Last name"><br>
+			Phone number:<br>
+			<input type="phone" name="phone number"  placeholder="eg.+43 664 12345678">
+			<p id="disclaimer">*or maybe not, since there is no database here...</p>
+		</div>
+
+		</form>
+		
+
+	</main>
+
+	<footer>
+		<span id="logoende"><img src="img/logo.png" alt="Logo CodeFactory Vienna" width="200px"></span>
+		<p>Rebecca Schedler - CodeFactory 2020</p>
+	</footer>
+</div>
+</body>
+</html>
